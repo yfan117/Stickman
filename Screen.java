@@ -1,4 +1,3 @@
-package stickman;
 import java.awt.Graphics;
 import java.awt.Image;
 import java.awt.event.KeyEvent;
@@ -123,7 +122,7 @@ public class Screen extends JFrame implements KeyListener{
 
 class Display extends JPanel{
 	
-	static Image stickman = new ImageIcon("res/panda/stick/stickman.png").getImage();
+	static Image stickman = new ImageIcon("stickman.png").getImage();
 	static int stickmanStage = 1;
 	static char previousMove ;
 	static int x = 0;
